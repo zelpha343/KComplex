@@ -8,7 +8,7 @@ Complex complex_init(float real, float imag) {
 }
 
 double get_length(Complex z) {
-    return sqrt(pow(z->real, 2) + pow(z->imag, 2))
+    return sqrt(pow(z->real, 2) + pow(z->imag, 2));
 }
 
 float get_principal_argument(Complex z) {
